@@ -14,10 +14,10 @@ if($choice==1){
 print "enter how much do u want to take out\n";
 $amount=<stdin>;
 #chomp($amount);
-print "plz enter the 4 digit pin";
+print "plz enter the account pin";
 my $pin=<stdin>;
 chomp($pin);
-if($pin==3000)
+if($pin==3009)
 {
 print "transection successful";
 }
