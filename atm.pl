@@ -15,6 +15,7 @@ print "enter how much do u want to take out\n";
 $amount=<stdin>;
 #chomp($amount);
 print "plz enter the account pin";
+print "if pin is correct it will proceed otherwise it will deny"
 my $pin=<stdin>;
 chomp($pin);
 if($pin==3009)
